@@ -1,24 +1,24 @@
 import { Task } from "./tasks";
 
-const projects = [
-    {
-        title: "test_proj",
-        description: "test_proj desciption",
-        tasks: [
-            {
-                title: "task1",
-                description: "describe task",
-                dueDate: new Date("2025-08-01"),
-                notes: "notes on task",
-                checklist: [
-                    {
-                        cheklist1: "check 1"
-                    }
-                ]
-            }
-        ]
-    }
-]
+// const projects = [
+//     {
+//         title: "test_proj",
+//         description: "test_proj desciption",
+//         tasks: [
+//             {
+//                 title: "task1",
+//                 description: "describe task",
+//                 dueDate: new Date("2025-08-01"),
+//                 notes: "notes on task",
+//                 checklist: [
+//                     {
+//                         cheklist1: "check 1"
+//                     }
+//                 ]
+//             }
+//         ]
+//     }
+// ]
 
 class Project {
     constructor(title, description) {
