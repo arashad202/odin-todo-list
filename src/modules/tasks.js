@@ -11,3 +11,5 @@ export class Task {
         this.done = !this.done;
     }
 }
+
+export {Task}
