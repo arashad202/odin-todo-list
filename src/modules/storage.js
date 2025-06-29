@@ -5,3 +5,5 @@ export function saveProjects (projects) {
 export function loadProjects() {
     return JSON.parse(localStorage.getItem("projects")) || [];
 }
+
+export {saveProjects, loadProjects}
