@@ -1,7 +1,6 @@
 export class Project {
-    constructor(title, description) {
+    constructor(title) {
         this.title = title;
-        this.description = description;
         this.tasks = [];
     }
 
@@ -13,5 +12,3 @@ export class Project {
         this.tasks.splice(idx,1);
     }
 }
-
-export {Project}

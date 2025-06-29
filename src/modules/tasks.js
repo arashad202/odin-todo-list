@@ -1,15 +1,13 @@
 export class Task {
-    constructor(title, description, dueDate, priority) {
+    constructor(title, description = '', dueDate = '', priority = 'low', done = false) {
         this.title = title;
         this.description = description;
         this.dueDate = dueDate;
         this.priority = priority;
-        this.done = false;
+        this.done = done;
     }
 
     toggleDone () {
         this.done = !this.done;
     }
 }
-
-export {Task}
